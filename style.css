@@ -1,0 +1,33 @@
+.board-container{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 100px;
+}
+.row{
+    display: flex;
+}
+.row > input{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    font-size: 24px; 
+    text-align: center; 
+    cursor: pointer; 
+}
+.start-text{
+    text-align: center;
+    margin-left: 80px;
+}
+.reset-game{
+    margin-left: 60px;
+    margin-top: 10px;
+    background-color: white;
+    color: red;
+    border: none;
+}
+.reset-game:active{
+    border: 0.2px solid black;
+}
