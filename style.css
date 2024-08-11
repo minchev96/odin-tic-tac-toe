@@ -4,7 +4,6 @@
     display: flex;
     flex-wrap: wrap;
     margin: auto;
-    margin-top: 100px;
 }
 .row{
     display: flex;
@@ -30,4 +29,11 @@
 }
 .reset-game:active{
     border: 0.2px solid black;
+}
+
+.victory-counter{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-left: 48%;
 }
